@@ -1,6 +1,6 @@
 # SI_507_final_project
 
-I intend to create interactive program that users can find an info about a movie, like when the movie was filmed, who was the main actor/actress, who was the director of the movie and the picture of the movie.
+I intended to create interactive program that users can find an info about a movie, like when the movie was filmed, who was the main actor/actress, who was the director of the movie and the picture of the movie.
 
 The users will be able to look at the movie's trailer from youtube.
 
