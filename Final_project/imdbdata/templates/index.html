@@ -1,0 +1,10 @@
+{% for movie_item in movie_data%}
+
+<a href = "{{url_for('Youtube', movie_name =movie_item.movieName)}}"><img src = "{{movie_item.poster}}" width="90" height="120" /></a>
+<h1> {{movie_item.movieName}} </h1>
+<p> Director: {{movie_item.dir}} </p>
+<p> Main Actor: {{movie_item.actor}} </p>
+<p> Release Date: {{movie_item.releaseDate}} </p>
+<p> Genre: {{movie_item.genre}} </p>
+
+{% endfor%}
